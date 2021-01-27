@@ -1,9 +1,11 @@
-/*{
-    margin: 0%;
-}*/
+
 *{
     list-style: none;
     font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
@@ -39,13 +41,16 @@ header ul li{
  
 }
 
-
-/*RESEARCH*/
+/* SECTION 1 RESEARCH*/
 
 .research{
-    height: 15em;
+    height: 16em;
     width: 100%;  
     background-color:white;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
 #txt1{
@@ -57,15 +62,243 @@ header ul li{
 
 #txt2{
     font-weight: thin;
+    font-size: 13px;
     margin-left: 50px;
     margin-top: 0;
+}
+
+.container-button-research{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.container-button-research i{
+    background-color: #F2F2F2;
+    border: solid;
+    border-color: #F2F2F2;
+    padding: 9px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 2px;
+    padding-bottom: 11px;
 }
 
 .research form p{
     margin-left: 50px;
 }
 
-/*ACCOMODATIONS*/
+.research input{
+    height: 34px;
+    width: 180px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-right: none;
+}
+
+.container-button-research button{
+border-color:#0065fc;
+background-color: #0065fc;
+color: white;
+font-weight: bold;
+height: 3em;
+width: 100px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-style: none;
+}
+
+.container-filter{
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.container-filter i{
+    background-color:#DEEBFF;
+    border: solid;
+    border-color: #F2F2F2;
+    padding: 10px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 2px;
+    color: #0065fc;
+}
+
+.container-filter button{
+    border: solid 2px #F2F2F2;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    height: 3em;
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#filtres p{
+    font-weight: bold;
+}
+
+.eco{
+    margin-left: 25px;
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.eco button{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 125px;
+}
+
+.eco-button{
+    height: 80px;
+    width: 150px;
+}
+
+.eco-i{
+    position: absolute;
+    float: left;
+}
+
+.eco i{
+    border-radius: 50px;
+}
+
+.famille{
+    margin-left: 25px;
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.famille-button{
+    height: 80px;
+    width: 150px;
+
+}
+
+.famille button{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 125px;
+}
+
+.famille-i{
+    width: 40px;
+    position: absolute;
+    float: left;
+}
+
+.famille i{
+    border-radius: 50px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.romantique{
+    margin-left: 25px;
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.romantique-button{
+    height: 80px;
+    width: 150px;
+}
+
+.romantique button{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 125px;
+}
+
+.romantique-i{
+    width: 40px;
+    position: absolute;
+    float: left;
+}
+
+.romantique i{
+    border-radius: 50px;
+}
+
+.animaux{
+    margin-left: 25px;
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.animaux-button{
+    height: 80px;
+    width: 150px;
+}
+
+.animaux button{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 180px;
+}
+
+.animaux-i{
+    width: 40px;
+    position: absolute;
+    float: left;
+}
+
+.animaux i{
+    border-radius: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.info i{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    color: #0065fc;
+    border:solid 2px #F2F2F2;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+.info p{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: #0065fc;
+    color: #DEEBFF;
+    transition-duration: 0.8s;
+}
+
+/* SECTION 2 ACCOMODATIONS*/
 
 .accomodations{
     height: 34em;
@@ -108,38 +341,294 @@ header ul li{
 
 #hotel1{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#hotel1-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.hotel1-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel1-name{
+    margin: 0px;
+}
+
+#prix1{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars1{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars1-blue i{
+    color: #0065fc;
+}
+
+#stars1-grey i{
+    color: lightgrey;
 }
 
 #hotel2{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#hotel2-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+}
+
+.hotel2-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel2-name{
+    margin: 0px;
+}
+
+#prix2{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars2{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars2 i{
+    color: #0065fc;
 }
 
 #hotel3{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#hotel3-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+}
+
+.hotel3-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel3-name{
+    margin: 0px;
+}
+
+#prix3{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars3{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars3-blue i{
+    color: #0065fc;
+}
+
+#stars3-grey i{
+    color: lightgrey;
 }
 
 #hotel4{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#hotel4-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.hotel4-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel4-name{
+    margin: 0px;
+}
+
+#prix4{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars4{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars4-blue i{
+    color: #0065fc;
+}
+
+#stars4-grey i{
+    color: lightgrey;
 }
 
 #hotel5{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    background-color:white;
+    border-radius: 20px;
+}
+
+#hotel5-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.hotel5-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel5-name{
+    margin: 0px;
+}
+
+#prix5{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars5{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars5-blue i{
+    color: #0065fc;
+}
+
+#stars5-grey i{
+    color: lightgrey;
 }
 
 #hotel6{
     width: 28%;
-    height: 35%;
-    background-color: cornflowerblue;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#hotel6-img{
+    width: 94%;
+    height: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.hotel6-container{
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#hotel6-name{
+    margin: 0px;
+}
+
+#prix6{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#stars6{
+    display: flex;
+    flex-direction: row;
+}
+
+#stars6 i{
+    color: #0065fc;
 }
 
 #les-plus-populaires{
@@ -153,8 +642,21 @@ header ul li{
     flex-direction: column;
 }
 
+#les-plus-populaires-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 #les-plus-populaires h3{
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+#les-plus-populaires-header i{
+    display:block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #best-ones{
@@ -162,29 +664,176 @@ header ul li{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 #best1{
     width: 80%;
-    height: 25%;
-    background-color: cornflowerblue;
+    height: 28%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#best1-img{
+    width: 40%;
+    height: 90%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.best1-container{
+    width: 55%;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#best1-name{
+    margin: 0px;
+}
+
+#best1-prix{
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+#best1-stars i{
+    color: #0065fc;
 }
 
 #best2{
     width: 80%;
-    height: 25%;
-    background-color: cornflowerblue;
+    height: 28%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#best2-img{
+    width: 40%;
+    height: 90%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.best2-container{
+    width: 55%;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#best2-name{
+    margin: 0px;
+}
+
+#best2-prix{
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+#best2-stars{
+    display: flex;
+    flex-direction: row;
+}
+
+#best2-stars-blue{
+    color: #0065fc;
+}
+
+#best2-stars-grey{
+    color: lightgrey;
 }
 
 #best3{
     width: 80%;
-    height: 25%;
-    background-color: cornflowerblue;
+    height: 28%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
-/*ACTIVITIES*/
+#best3-img{
+    width: 40%;
+    height: 90%;
+    background-color: darkcyan;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+}
+
+.best3-container{
+    width: 55%;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#best3-name{
+    margin: 0px;
+}
+
+#best3-prix{
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+#best3-stars{
+    display: flex;
+    flex-direction: row;
+}
+
+#best3-stars-blue{
+    color: #0065fc;
+}
+
+#best3-stars-grey{
+    color: lightgrey;
+}
+
+/* SECTION 3 ACTIVITIES*/
 
 #titre-activite{
     
@@ -212,16 +861,78 @@ header ul li{
     margin-left: 3%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+}
+
+#background1{
+    width: 100%;
+    height: 86%;
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #activities-part2{
     height: 80%;
     width: 21%;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 1,5%;
     margin-right: 1,5%;
-    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#activities-part2-a{
+    height: 55%;
+    width: 100%;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+    border-radius: 20px;
+}
+
+#background2-a{
+    height: 75%;
+    width: 100%;
+    background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activities-part2-a h4{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#activities-part2-b{
+    height: 35%;
+    width: 100%;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+    border-radius: 20px;
+}
+
+#background2-b{
+    height: 60%;
+    width: 100%;
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activities-part2-b h4{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 #activities-part3{
@@ -231,16 +942,81 @@ header ul li{
     border-radius: 20px;
     margin-left: 1,5%;
     margin-right: 1,5%;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+}
+
+#background3{
+    width: 100%;
+    height: 329px;
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #activities-part4{
     height: 80%;
     width: 21%;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-right: 3%;
     margin-left: 1,5%;
-    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#activities-part4-a{
+    height: 35%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+}
+
+#background4-a{
+    height: 75%;
+    width: 100%;
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activities-part4-a h4{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#activities-part4-b{
+    height: 55%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+}
+
+#background4-b{
+    height: 75%;
+    width: 100%;
+    background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activities-part4-b h4{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #activities-part1 img{
@@ -253,18 +1029,15 @@ header ul li{
 #activities-part1 h4{
     margin-left: 15px;
     margin-top: 14px;
-}
-
-#activities-part3 img{
-    width: 100%;
-    height: 88%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
 }
 
 #activities-part3 h4{
     margin-left: 15px;
-    margin-top: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 /*FOOTER*/

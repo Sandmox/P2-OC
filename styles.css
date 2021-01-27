@@ -39,7 +39,15 @@ header ul{
 header ul li{
     color: #0065fc;
     margin-right: 60px;
- 
+}
+
+header ul li a{
+    padding: 30px;
+    width: 80px;
+}
+
+header ul li a:hover{
+    border-top: solid 2px #0065fc;
 }
 
 /* SECTION 1 RESEARCH*/

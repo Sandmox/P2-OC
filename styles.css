@@ -6,6 +6,7 @@
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 body{
@@ -44,7 +45,6 @@ header ul li{
 /* SECTION 1 RESEARCH*/
 
 .research{
-    height: 16em;
     width: 100%;  
     background-color:white;  
     display: flex;
@@ -88,23 +88,23 @@ header ul li{
 }
 
 .research input{
-    height: 34px;
     width: 180px;
+    padding: 10px;
     border-color: #F2F2F2;
     border-style: solid;
     border-right: none;
 }
 
 .container-button-research button{
-border-color:#0065fc;
-background-color: #0065fc;
-color: white;
-font-weight: bold;
-height: 3em;
-width: 100px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-border-style: none;
+    border-color:#0065fc;
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
 }
 
 .container-filter{
@@ -144,7 +144,6 @@ border-style: none;
 .eco{
     margin-left: 25px;
     width: 150px;
-    height: 80px;
     position: relative;
 }
 
@@ -158,7 +157,6 @@ border-style: none;
 }
 
 .eco-button{
-    height: 80px;
     width: 150px;
 }
 
@@ -174,12 +172,10 @@ border-style: none;
 .famille{
     margin-left: 25px;
     width: 150px;
-    height: 80px;
     position: relative;
 }
 
 .famille-button{
-    height: 80px;
     width: 150px;
 
 }
@@ -208,12 +204,10 @@ border-style: none;
 .romantique{
     margin-left: 25px;
     width: 150px;
-    height: 80px;
     position: relative;
 }
 
 .romantique-button{
-    height: 80px;
     width: 150px;
 }
 
@@ -239,12 +233,10 @@ border-style: none;
 .animaux{
     margin-left: 25px;
     width: 150px;
-    height: 80px;
     position: relative;
 }
 
 .animaux-button{
-    height: 80px;
     width: 150px;
 }
 
@@ -947,7 +939,7 @@ button:hover{
 
 #background3{
     width: 100%;
-    height: 329px;
+    height: 86%;
     background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-size: cover;
     background-position: top;
@@ -1043,13 +1035,13 @@ button:hover{
 /*FOOTER*/
 
 footer{
-    height: 11em;
     width: 100%;  
     background-color:#F2F2F2;
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer li{

@@ -296,6 +296,7 @@ button:hover{
     background-color: #0065fc;
     color: #DEEBFF;
     transition-duration: 0.8s;
+    cursor: pointer;
 }
 
 /* SECTION 2 ACCOMODATIONS*/
@@ -344,6 +345,12 @@ button:hover{
     height: 40%;
     background-color: white;
     border-radius: 20px;
+}
+
+#hebergements1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 #hotel1-img{
@@ -642,6 +649,12 @@ button:hover{
     flex-direction: column;
 }
 
+#les-plus-populaires a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
 #les-plus-populaires-header{
     display: flex;
     flex-direction: row;
@@ -841,6 +854,12 @@ button:hover{
     margin-bottom: 0px;
     margin-left: 40px;
     margin-top: 60px;
+}
+
+.activities a{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .activities{

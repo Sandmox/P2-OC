@@ -1,4 +1,3 @@
-
 *{
     list-style: none;
     font-family: 'Raleway', sans-serif;
@@ -13,7 +12,7 @@ body{
     margin: 0%;
 }
 
-/*HEADER*/
+/* ------HEADER------- */
 
 header {
     height: 5em;
@@ -50,7 +49,7 @@ header ul li a:hover{
     border-top: solid 2px #0065fc;
 }
 
-/* SECTION 1 RESEARCH*/
+/* -------SECTION 1 RESEARCH-------- */
 
 .research{
     width: 100%;  
@@ -299,12 +298,12 @@ button:hover{
     cursor: pointer;
 }
 
-/* SECTION 2 ACCOMODATIONS*/
+/* -------SECTION 2 ACCOMODATIONS-------- */
 
 .accomodations{
     height: 34em;
     width: 100%;  
-    background-color: white;
+    background-color:white;
     display: flex;
     flex-direction: row;
 }
@@ -846,7 +845,7 @@ button:hover{
     color: lightgrey;
 }
 
-/* SECTION 3 ACTIVITIES*/
+/* -------SECTION 3 ACTIVITIES------- */
 
 #titre-activite{
     
@@ -916,9 +915,9 @@ button:hover{
 #background2-a{
     height: 75%;
     width: 100%;
-    background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1059,7 +1058,7 @@ button:hover{
     font-size: 12px;
 }
 
-/*FOOTER*/
+/* -------FOOTER------- */
 
 footer{
     width: 100%;  
@@ -1109,4 +1108,245 @@ footer li{
     margin-left: 40px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+/* ---------------------------------RESPONSIVE VERSION------------------------------------ */
+
+@media all and (max-width: 1024px)
+{
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* ----------SECTION 1 RESEARCH----------- */
+
+    .research{
+        align-items: flex-start;
+    }
+
+    .container-filter{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 250px;
+    }
+
+    /* ----------SECTION 2 ACCOMODATIONS----------- */
+
+    .accomodations{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 2500px;
+    }
+
+
+    #hebergements{
+        flex-flow: column;
+        height: 1500px;
+    }
+
+    #hebergements1{
+        border-radius: 0px;
+        background-color: white;
+        width: 100%;
+    }
+
+    #hebergements1 h3{
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    #hebergements1 h4{
+        margin-left: 20%;
+    }
+
+    #hotel1{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+
+    #hotel2{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+    #hotel3{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+    #hotel4{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+    #hotel5{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+    #hotel6{
+        width: 60%;
+        box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
+        margin-bottom: 15px;
+    }
+
+    #les-plus-populaires{
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    #les-plus-populaires-header{
+        justify-content: space-between;
+    }
+
+    #les-plus-populaires-header h3{
+        margin-left: 20%;
+    }
+
+    #les-plus-populaires-header i{
+        margin-right: 20%;
+    }
+
+    #best1{
+        width: 60%;
+    }
+
+    #best2{
+        width: 60%;
+    }
+
+    #best3{
+        width: 60%;
+    }
+
+    /* -----------SECTION 3 ACTIVITIES----------- */
+
+    #titre-activite{
+        text-align: left;
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+    .activities{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 1500px;
+    }
+
+
+    #activities-part1{
+        margin-left: 0px;
+        margin-bottom: 15px;
+        height: 15%;
+        width: 60%;
+    }
+
+    #activities-part1 h4{
+        font-size: 16px;
+    }
+
+    #background1{
+        height: 75%;
+    }
+
+    #activities-part2{
+        height: 30%;
+        width: 60%;
+        justify-content: flex-start;
+    }
+
+    #activities-part2-a{
+        margin-bottom: 15px;
+        height: 50%;
+        width: 100%;
+    }
+
+    #activities-part2-b{
+        margin-bottom: 15px;
+        height: 50%;
+        width: 100%;
+    }
+
+    #activities-part2-a h4{
+        font-size: 16px;
+    }
+
+    #activities-part2-b h4{
+        font-size: 16px;
+    }
+
+    #background2-a{
+        height: 75%;
+    }
+
+    #background2-b{
+        height: 75%;
+    }
+
+    #activities-part3{
+        margin-left: 0px;
+        margin-bottom: 15px;
+        height: 15%;
+        width: 60%;
+    }
+
+    #activities-part3 h4{
+        font-size: 16px;
+    }
+
+    #background3{
+        height: 75%;
+    }
+
+    #activities-part4{
+        margin-right: 0px;
+        height: 30%;
+        width: 60%;
+        justify-content: flex-start;
+    }
+
+    #activities-part4-a{
+        margin-right: 0px;
+        margin-bottom: 15px;
+        height: 50%;
+        width: 100%;
+    }
+
+    #activities-part4-b{
+        margin-right: 0px;
+        margin-bottom: 15px;
+        height: 50%;
+        width: 100%;
+    }
+
+    #background4-a{
+        height: 75%;
+    }
+
+    #background4-b{
+        height: 75%;
+        background-position-y: 40%;
+    }
+
+    #activities-part4-a h4{
+        font-size: 16px;
+    }
+
+    #activities-part4-b h4{
+        font-size: 16px;
+    }
+
+    /* ---------- FOOTER ----------- */
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

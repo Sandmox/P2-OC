@@ -1123,13 +1123,58 @@ footer li{
 
     .research{
         align-items: flex-start;
+
+    }
+
+    #txt1{
+        margin-left: 200px;
+        width: 40%;
+        font-size: 20px;
+    }
+
+    #txt2{
+        margin-left: 200px;
+    }
+
+    .container-button-research{
+        margin-left: 200px;
     }
 
     .container-filter{
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
         height: 250px;
+        margin-left: 200px;
+    }
+
+    #filtres p{
+        font-size: 17px;
+    }
+
+    .eco{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .famille{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .romantique{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .animaux{
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .info{
+        margin-left: 200px;
+        margin-bottom: 20px;
     }
 
     /* ----------SECTION 2 ACCOMODATIONS----------- */

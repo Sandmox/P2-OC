@@ -1119,7 +1119,13 @@ footer li{
         margin-right: 0%;
     }
 
-    /* ----------SECTION 1 RESEARCH----------- */
+    /* ---------- HEADER ----------- */
+
+    header{
+        margin-left: 140px;
+    }
+
+    /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
         align-items: flex-start;
@@ -1146,6 +1152,7 @@ footer li{
         align-items: flex-start;
         height: 250px;
         margin-left: 200px;
+        margin-top: 0px;
     }
 
     #filtres p{
@@ -1522,7 +1529,19 @@ footer li{
     #footer{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+    }
+
+    #footer1{
+        margin-left: 160px;
+    }
+
+    #footer2{
+        margin-left: 160px;
+    }
+
+    #footer3{
+        margin-left: 160px;
     }
 
 }

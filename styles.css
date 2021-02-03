@@ -803,37 +803,12 @@ footer li{
     margin-bottom: 12px;
 }
 
-#footer1{
+.footer-container{
     width: 33.33%;
     height: 100%;
-    
 }
 
-#footer1 p{
-    margin-left: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#footer2{
-    width: 33.33%;
-    height: 100%;
-    
-}
-
-#footer2 p{
-    margin-left: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#footer3{
-    width: 33.33%;
-    height: 100%;
-    
-}
-
-#footer3 p{
+.footer-container p{
     margin-left: 40px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -1123,15 +1098,7 @@ footer li{
         align-items: flex-start;
     }
 
-    #footer1{
-        margin-left: 160px;
-    }
-
-    #footer2{
-        margin-left: 160px;
-    }
-
-    #footer3{
+    .footer-container{
         margin-left: 160px;
     }
 

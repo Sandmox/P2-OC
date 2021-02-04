@@ -15,8 +15,7 @@ body{
 /* ------HEADER------- */
 
 header {
-    height: 5em;
-    width: 100%;  
+    height: 5em; 
     background-color: white; 
     display: flex;
     flex-direction: row;
@@ -24,7 +23,7 @@ header {
 }
 
 header p img{
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 header ul{
@@ -49,10 +48,13 @@ header ul li a:hover{
     border-top: solid 2px #0065fc;
 }
 
+#inscription-mobile{
+    display: none;
+}
+
 /* -------SECTION 1 RESEARCH-------- */
 
-.research{
-    width: 100%;  
+.research{ 
     background-color:white;  
     display: flex;
     flex-direction: column;
@@ -61,7 +63,7 @@ header ul li a:hover{
 }
 
 #txt1{
-    margin-left: 50px;
+    padding-left: 50px;
     margin-bottom: 5px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -70,12 +72,12 @@ header ul li a:hover{
 #txt2{
     font-weight: thin;
     font-size: 13px;
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 0;
 }
 
 .container-button-research{
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 20px;
 }
 
@@ -91,7 +93,7 @@ header ul li a:hover{
 }
 
 .research form p{
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 .research input{
@@ -115,7 +117,7 @@ header ul li a:hover{
 }
 
 .container-filter{
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 25px;
     height: 60px;
     display: flex;
@@ -150,7 +152,7 @@ header ul li a:hover{
 
 .filters{
     margin-left: 25px;
-    width: 150px;
+    min-width: 150px;
     position: relative;
 }
 
@@ -160,11 +162,16 @@ header ul li a:hover{
     margin-left: 20px;
     padding-left: 30px;
     padding-right: 20px;
-    width: 125px;
+    min-width: 125px;
 }
 
 .filters-button{
-    width: 150px;
+    min-width: 150px;
+}
+
+#filters-logo{
+    display: flex;
+    flex-direction: row;
 }
 
 .filters-i{
@@ -179,34 +186,6 @@ header ul li a:hover{
     padding-right: 13px;
 }
 
-.animaux{
-    margin-left: 25px;
-    width: 150px;
-    position: relative;
-}
-
-.animaux-button{
-    width: 150px;
-}
-
-.animaux button{
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 20px;
-    width: 180px;
-}
-
-.animaux-i{
-    width: 40px;
-    position: absolute;
-    float: left;
-}
-
-.animaux i{
-    border-radius: 50px;
-}
 
 .info{
     display: flex;
@@ -466,6 +445,7 @@ button:hover{
     display:block;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 40px;
 }
 
 #best-ones{
@@ -485,6 +465,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
+    overflow: hidden;
 }
 
 #best1-img{
@@ -809,7 +790,7 @@ footer li{
 }
 
 .footer-container p{
-    margin-left: 40px;
+    padding-left: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -818,49 +799,78 @@ footer li{
 
 @media all and (max-width: 1024px)
 {
-    body{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
+    
 
     /* ---------- HEADER ----------- */
 
     header{
-        margin-left: 140px;
+        padding-left: 140px;
+        flex-direction: column;
+    }
+
+    .header1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header ul{
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    
+    header ul li a:hover{
+        border-bottom: solid 2px #0065fc;
+        border-top: none;
+    }
+
+    #inscription-mobile{
+        display: flex;
+        padding-left: 120px;
+        font-weight: bold;
+        color: #0065fc;
+    }
+
+    #inscription-desktop{
+        display: none;
     }
 
     /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
-        align-items: flex-start;
-
+        padding-left: 140px;
+        padding-right: 350px;
+        margin-top: 90px;
     }
 
     #txt1{
-        margin-left: 200px;
-        width: 40%;
+        width: 70%;
         font-size: 20px;
     }
 
     #txt2{
-        margin-left: 200px;
-    }
-
-    .container-button-research{
-        margin-left: 200px;
+        font-size: 14px;
+        margin-top: 5px;
     }
 
     .container-filter{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-start;
-        height: 250px;
-        margin-left: 200px;
+        height: 210px;
         margin-top: 0px;
+        width: 70%;
     }
 
     #filtres p{
         font-size: 17px;
+    }
+
+    #filters-logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .filters{
@@ -868,13 +878,11 @@ footer li{
         margin-bottom: 10px;
     }
 
-    .animaux{
-        margin-left: 0px;
-        margin-bottom: 5px;
+    #dog-button{
+        width: 180px;
     }
 
     .info{
-        margin-left: 200px;
         margin-bottom: 20px;
     }
 
@@ -882,14 +890,11 @@ footer li{
 
     .accomodations{
         flex-direction: column-reverse;
-        align-items: center;
-        height: 2500px;
+        height: 4500px;
     }
 
-
     #hebergements{
-        flex-flow: column;
-        height: 1500px;
+        height: 3000px;
     }
 
     #hebergements1{
@@ -899,32 +904,37 @@ footer li{
     }
 
     #hebergements1 h3{
-        margin-left: 20%;
+        padding-left: 6%;
         text-align: left;
         margin-top: 30px;
-        font-size: 24px;
+        font-size: xxx-large;
         margin-bottom: 20px;
     }
 
     #hebergements1 h4{
-        margin-left: 20%;
-        font-size: 20px;
+        padding-left: 5%;
+        font-size: xx-large
     }
 
     .hotels{
-        width: 60%;
-        height: 50%;
+        width: 90%;
+        height: 450px;
         box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
         margin-bottom: 15px;
         justify-content: flex-start;
     }
 
     .hotels-name{
-        font-size: 16px;
+        font-size: xxx-large;
+    }
+
+    .prix{
+        font-size: xx-large;
     }
 
     .stars{
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        font-size: xx-large;
     }
 
     #les-plus-populaires{
@@ -937,19 +947,27 @@ footer li{
     }
 
     #les-plus-populaires-header h3{
-        margin-left: 20%;
+        padding-left: 6%;
+        font-size: xxx-large;
     }
 
     #les-plus-populaires-header i{
-        margin-right: 20%;
+        padding-right: 6%;
+    }
+
+    .fa-chart-line:before {
+        content: "\f201";
+        font-size: xxx-large;
     }
 
     .best{
-        width: 60%;
+        width: 90%;
+        height: 31%;
     }
 
     .best-stars{
-        margin-left: 20px;
+        padding-left: 20px;
+        font-size: xx-large;
     }
 
     .best-container{
@@ -960,42 +978,44 @@ footer li{
 
     .best-name{
         margin-bottom: 10px;
-        margin-left: 20px;
+        padding-left: 20px;
         font-size: 20px;
+        font-size: xxx-large;
     }
 
     .best-prix{
         margin-bottom: 70px;
-        margin-left: 20px;
-        font-size: 20px;
+        padding-left: 20px;
+        font-size: xx-large;
     }
 
     /* -----------SECTION 3 ACTIVITIES----------- */
 
     #titre-activite{
-        text-align: left;
-        margin-left: 20%;
+        padding-left: 6%;
         margin-bottom: 20px;
         margin-top: 40px;
+        font-size: xxx-large;
     }
 
     .activities{
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        height: 1500px;
+        justify-content: space-around;
+        height: 3500px;
     }
 
 
     #activities-part1{
-        margin-left: 0px;
         margin-bottom: 15px;
         height: 15%;
-        width: 60%;
+        width: 90%;
     }
 
     #activities-part1 h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #background1{
@@ -1004,8 +1024,7 @@ footer li{
 
     #activities-part2{
         height: 30%;
-        width: 60%;
-        justify-content: flex-start;
+        width: 90%;
     }
 
     #activities-part2-a{
@@ -1021,11 +1040,15 @@ footer li{
     }
 
     #activities-part2-a h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #activities-part2-b h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #background2-a{
@@ -1037,14 +1060,15 @@ footer li{
     }
 
     #activities-part3{
-        margin-left: 0px;
         margin-bottom: 15px;
         height: 15%;
-        width: 60%;
+        width: 90%;
     }
 
     #activities-part3 h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #background3{
@@ -1055,8 +1079,7 @@ footer li{
     #activities-part4{
         margin-right: 0px;
         height: 30%;
-        width: 60%;
-        justify-content: flex-start;
+        width: 90%;
     }
 
     #activities-part4-a{
@@ -1083,11 +1106,15 @@ footer li{
     }
 
     #activities-part4-a h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     #activities-part4-b h4{
-        font-size: 16px;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 
     /* ---------- FOOTER ----------- */
@@ -1095,11 +1122,20 @@ footer li{
     #footer{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+    }
+
+    footer li{
+        font-size: xxx-large;
     }
 
     .footer-container{
-        margin-left: 160px;
+        padding-left: 35px;
+        width: 100%;
+    }
+
+    .footer-container p{
+        font-size: xxx-large;
+        margin-bottom: 40px;
     }
 
 }

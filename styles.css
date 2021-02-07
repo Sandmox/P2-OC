@@ -804,20 +804,24 @@ footer li{
     /* ---------- HEADER ----------- */
 
     header{
-        padding-left: 140px;
         flex-direction: column;
     }
 
     .header1{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
+        padding-left: 4%;
     }
 
     header ul{
-        justify-content: flex-start;
-        padding-left: 20px;
+        justify-content: space-between;
+        padding-left: 6%;
+    }
+
+    header ul li{
+        font-size: xx-large;
     }
     
     header ul li a:hover{
@@ -839,19 +843,29 @@ footer li{
     /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
-        padding-left: 140px;
-        padding-right: 350px;
-        margin-top: 90px;
+        margin-top: 70px;
+        padding-left: 4%;
+    }
+
+    .research input{
+        padding: 24px;
+        padding-top: 45px;
+        width: 500px;
     }
 
     #txt1{
         width: 70%;
-        font-size: 20px;
+        font-size: xxx-large;
     }
 
     #txt2{
-        font-size: 14px;
+        font-size: xx-large;
         margin-top: 5px;
+    }
+
+    .fa-map-marker-alt:before {
+        content: "\f3c5";
+        font-size: xx-large;
     }
 
     .container-filter{
@@ -860,11 +874,25 @@ footer li{
         align-items: flex-start;
         height: 210px;
         margin-top: 0px;
-        width: 70%;
+        width: 65%;
+    }
+
+    .container-button-research i{
+        padding: 30px;
+        padding-bottom: 24px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .container-button-research button{
+        padding: 26px;
+        padding-top: 47px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     #filtres p{
-        font-size: 17px;
+        font-size: xx-large;
     }
 
     #filters-logo{
@@ -884,6 +912,10 @@ footer li{
 
     .info{
         margin-bottom: 20px;
+    }
+
+    .info p{
+        font-size: xx-large;
     }
 
     /* ----------SECTION 2 ACCOMODATIONS----------- */

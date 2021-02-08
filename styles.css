@@ -849,8 +849,9 @@ footer li{
 
     .research input{
         padding: 24px;
-        padding-top: 45px;
-        width: 500px;
+        padding-top: 28px;
+        width: 600px;
+        font-size: xx-large;
     }
 
     #txt1{
@@ -869,17 +870,22 @@ footer li{
     }
 
     .container-filter{
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        height: 210px;
+        height: 240px;
         margin-top: 0px;
-        width: 65%;
+        width: 60%;
+    }
+
+    .container-filter button{
+        height: 71px;
+        border: solid 4px #F2F2F2; 
     }
 
     .container-button-research i{
         padding: 30px;
-        padding-bottom: 24px;
+        padding-bottom: 27px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -889,6 +895,7 @@ footer li{
         padding-top: 47px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        padding-bottom: 29px;
     }
 
     #filtres p{
@@ -899,6 +906,7 @@ footer li{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        height: 290px;
     }
 
     .filters{
@@ -906,15 +914,75 @@ footer li{
         margin-bottom: 10px;
     }
 
+    #filters-famille{
+        margin-left: 40px;
+    }
+
+    .filters button{
+        margin-left: 35px;
+        font-size: 23px;
+        padding-left: 50px;
+    }
+
+    .fa-money-bill-wave:before {
+        font-size: xxx-large;
+    }
+
+    .fa-child:before {
+        font-size: xxx-large;
+    }
+
+    .fa-heart:before {
+        font-size: xxx-large;
+    }
+
+    .fa-dog:before {
+        font-size: xxx-large;
+    }
+
     #dog-button{
-        width: 180px;
+        width: 325px;
+    }
+
+    #romantique-button{
+        width: 225px;
+    }
+
+    #eco-button{
+        width: 225px;
+    }
+
+    #famille-button{
+        width: 225px;
+        margin-left: 20px;
+    }
+
+    #logo-eco{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #logo-famille{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .info{
         margin-bottom: 20px;
+        padding-top: 140px;
+        width: 705px;
     }
 
     .info p{
+        font-size: 35px;
+    }
+
+    .info i{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .fa-info:before {
         font-size: xx-large;
     }
 
@@ -1060,7 +1128,7 @@ footer li{
     }
 
     #activities-part2-a{
-        margin-bottom: 15px;
+        margin-bottom: 90px;
         height: 50%;
         width: 100%;
     }
@@ -1116,7 +1184,7 @@ footer li{
 
     #activities-part4-a{
         margin-right: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 90px;
         height: 50%;
         width: 100%;
     }

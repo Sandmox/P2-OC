@@ -146,6 +146,10 @@ header ul li a:hover{
     border-bottom-right-radius: 10px;
 }
 
+#glass{
+    visibility: hidden;
+}
+
 #filtres p{
     font-weight: bold;
 }
@@ -807,6 +811,10 @@ footer li{
         flex-direction: column;
     }
 
+    header p img{
+        width: 200px;
+    }
+
     .header1{
         display: flex;
         flex-direction: row;
@@ -817,33 +825,60 @@ footer li{
 
     header ul{
         justify-content: space-between;
-        padding-left: 6%;
+        padding-left: 0px;
     }
 
     header ul li{
         font-size: xx-large;
+        margin-right: 0px;
+        color: #0065fc;
     }
-    
-    header ul li a:hover{
-        border-bottom: solid 2px #0065fc;
+
+    header ul li a{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    #activites-link:hover{
+        border-bottom: solid 5px #0065fc;
         border-top: none;
+        color: #0065fc;
+    }
+
+    #heberg-link:hover{
+        border-bottom: solid 5px #0065fc;
+        border-top: none;
+        color: #0065fc;
     }
 
     #inscription-mobile{
         display: flex;
         padding-left: 120px;
+        padding-right: 80px;
         font-weight: bold;
         color: #0065fc;
+        font-size: xx-large;
     }
 
     #inscription-desktop{
         display: none;
     }
 
+    #heberg-link{
+        padding-left: 160px;
+        border-bottom: solid 5px #F2F2F2;
+    }
+
+    #activites-link{
+        padding-left: 147px;
+        padding-right: 247px;
+        border-bottom: solid 5px #F2F2F2;
+    }
+
     /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
-        margin-top: 70px;
+        margin-top: 135px;
         padding-left: 4%;
     }
 
@@ -896,6 +931,26 @@ footer li{
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         padding-bottom: 29px;
+        color: #0065fc;
+    }
+
+    #search-button{
+        display: none;
+    }
+
+    .fa-search:before {
+        font-size: xx-large;
+    }
+
+    #glass{
+        visibility: visible;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        color: white;
+        background-color: #0065fc;
+        margin-left: -20px;
     }
 
     #filtres p{
@@ -925,19 +980,19 @@ footer li{
     }
 
     .fa-money-bill-wave:before {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     .fa-child:before {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     .fa-heart:before {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     .fa-dog:before {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     #dog-button{
@@ -954,17 +1009,28 @@ footer li{
 
     #famille-button{
         width: 225px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     #logo-eco{
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 20px;
     }
 
     #logo-famille{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .filters i{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
 
     .info{

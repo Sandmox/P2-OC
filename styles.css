@@ -533,7 +533,7 @@ button:hover{
     color: #0065fc;
 }
 
-#best2-stars-grey{
+#best2-stars-grey i{
     color: lightgrey;
 }
 
@@ -555,7 +555,7 @@ button:hover{
     color: #0065fc;
 }
 
-#best3-stars-grey{
+#best3-stars-grey i{
     color: lightgrey;
 }
 

@@ -780,8 +780,6 @@ footer{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 footer li{
@@ -1297,6 +1295,7 @@ footer li{
     .footer-container{
         padding-left: 35px;
         width: 100%;
+        background-color: #F2F2F2;
     }
 
     .footer-container p{

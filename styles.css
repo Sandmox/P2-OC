@@ -70,7 +70,6 @@ header ul li a:hover{
 }
 
 #txt2{
-    font-weight: thin;
     font-size: 13px;
     padding-left: 50px;
     margin-top: 0;
@@ -612,8 +611,6 @@ button:hover{
     height: 80%;
     width: 21%;
     border-radius: 20px;
-    margin-left: 1,5%;
-    margin-right: 1,5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -672,8 +669,6 @@ button:hover{
     width: 21%;
     background-color: white;
     border-radius: 20px;
-    margin-left: 1,5%;
-    margin-right: 1,5%;
     box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
 }
 
@@ -693,7 +688,6 @@ button:hover{
     width: 21%;
     border-radius: 20px;
     margin-right: 3%;
-    margin-left: 1,5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

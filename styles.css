@@ -78,6 +78,9 @@ header ul li a:hover{
 .container-button-research{
     padding-left: 50px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
 }
 
 .container-button-research i{
@@ -118,7 +121,6 @@ header ul li a:hover{
 .container-filter{
     padding-left: 50px;
     margin-top: 25px;
-    height: 60px;
     display: flex;
     flex-direction: row;  
 }
@@ -429,7 +431,6 @@ button:hover{
 
 #les-plus-populaires a {
     display: flex;
-    height: 100%;
     width: 100%;
 }
 
@@ -796,11 +797,16 @@ footer li{
 @media all and (max-width: 1024px)
 {
     
+    html{
+        font-size: 70%;
+    }
 
     /* ---------- HEADER ----------- */
 
     header{
         flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     header p img{
@@ -821,7 +827,7 @@ footer li{
     }
 
     header ul li{
-        font-size: xx-large;
+        font-size: 3rem;
         margin-right: 0px;
         color: #0065fc;
     }
@@ -849,7 +855,7 @@ footer li{
         padding-right: 80px;
         font-weight: bold;
         color: #0065fc;
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #inscription-desktop{
@@ -870,7 +876,6 @@ footer li{
     /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
-        margin-top: 135px;
         padding-left: 4%;
     }
 
@@ -878,29 +883,29 @@ footer li{
         padding: 24px;
         padding-top: 28px;
         width: 600px;
-        font-size: xx-large;
+        min-width: 150px;
+        font-size: 3rem;
     }
 
     #txt1{
         width: 70%;
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     #txt2{
-        font-size: xx-large;
+        font-size: 3rem;
         margin-top: 5px;
     }
 
     .fa-map-marker-alt:before {
         content: "\f3c5";
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .container-filter{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        height: 240px;
         margin-top: 0px;
         width: 60%;
     }
@@ -912,7 +917,8 @@ footer li{
 
     .container-button-research i{
         padding: 30px;
-        padding-bottom: 27px;
+        padding-bottom: 30px;
+        padding-top: 33px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -931,7 +937,7 @@ footer li{
     }
 
     .fa-search:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #glass{
@@ -946,23 +952,19 @@ footer li{
     }
 
     #filtres p{
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #filters-logo{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 290px;
+        justify-content: space-between;
     }
 
     .filters{
         margin-left: 0px;
         margin-bottom: 10px;
-    }
-
-    #filters-famille{
-        margin-left: 40px;
     }
 
     .filters button{
@@ -972,19 +974,19 @@ footer li{
     }
 
     .fa-money-bill-wave:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .fa-child:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .fa-heart:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .fa-dog:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #dog-button{
@@ -1027,7 +1029,6 @@ footer li{
 
     .info{
         margin-bottom: 20px;
-        padding-top: 140px;
         width: 705px;
     }
 
@@ -1041,18 +1042,14 @@ footer li{
     }
 
     .fa-info:before {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     /* ----------SECTION 2 ACCOMODATIONS----------- */
 
     .accomodations{
         flex-direction: column-reverse;
-        height: 4500px;
-    }
-
-    #hebergements{
-        height: 3000px;
+        height: auto;
     }
 
     #hebergements1{
@@ -1065,34 +1062,34 @@ footer li{
         padding-left: 6%;
         text-align: left;
         margin-top: 30px;
-        font-size: xxx-large;
+        font-size: 4rem;
         margin-bottom: 20px;
     }
 
     #hebergements1 h4{
         padding-left: 5%;
-        font-size: xx-large
+        font-size: 3rem;
     }
 
     .hotels{
         width: 90%;
         height: 450px;
         box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
         justify-content: flex-start;
     }
 
     .hotels-name{
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     .prix{
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .stars{
         padding-bottom: 20px;
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #les-plus-populaires{
@@ -1106,7 +1103,7 @@ footer li{
 
     #les-plus-populaires-header h3{
         padding-left: 6%;
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     #les-plus-populaires-header i{
@@ -1115,7 +1112,11 @@ footer li{
 
     .fa-chart-line:before {
         content: "\f201";
-        font-size: xxx-large;
+        font-size: 4rem;
+    }
+
+    #best-ones{
+        padding-bottom: 40px;
     }
 
     .best{
@@ -1125,7 +1126,7 @@ footer li{
 
     .best-stars{
         padding-left: 20px;
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     .best-container{
@@ -1138,34 +1139,34 @@ footer li{
         margin-bottom: 10px;
         padding-left: 20px;
         font-size: 20px;
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     .best-prix{
         margin-bottom: 70px;
         padding-left: 20px;
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     /* -----------SECTION 3 ACTIVITIES----------- */
 
     #titre-activite{
         padding-left: 6%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-top: 40px;
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     .activities{
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        height: 3500px;
+        justify-content: flex-start;
+        height: 250rem;
     }
 
 
     #activities-part1{
-        margin-bottom: 15px;
+        margin-bottom: 50px;
         height: 15%;
         width: 90%;
     }
@@ -1183,16 +1184,17 @@ footer li{
     #activities-part2{
         height: 30%;
         width: 90%;
+        margin-left: 3%;
     }
 
     #activities-part2-a{
-        margin-bottom: 90px;
+        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
 
     #activities-part2-b{
-        margin-bottom: 15px;
+        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
@@ -1218,9 +1220,10 @@ footer li{
     }
 
     #activities-part3{
-        margin-bottom: 15px;
+        margin-bottom: 50px;
         height: 15%;
         width: 90%;
+        margin-left: 3%;
     }
 
     #activities-part3 h4{
@@ -1238,11 +1241,12 @@ footer li{
         margin-right: 0px;
         height: 30%;
         width: 90%;
+        margin-left: 3%;
     }
 
     #activities-part4-a{
         margin-right: 0px;
-        margin-bottom: 90px;
+        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
@@ -1283,7 +1287,7 @@ footer li{
     }
 
     footer li{
-        font-size: xxx-large;
+        font-size: 4rem;
     }
 
     .footer-container{
@@ -1293,7 +1297,7 @@ footer li{
     }
 
     .footer-container p{
-        font-size: xxx-large;
+        font-size: 4rem;
         margin-bottom: 40px;
     }
 

@@ -48,6 +48,18 @@ header ul li a:hover{
     border-top: solid 2px #0065fc;
 }
 
+header ul li a:active{
+    color: #0065fc;
+}
+
+#heberg-link{
+    color: #0065fc;
+}
+
+#activites-link{
+    color: #0065fc;
+}
+
 #inscription-mobile{
     display: none;
 }
@@ -827,7 +839,7 @@ footer li{
     }
 
     header ul li{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-right: 0px;
         color: #0065fc;
     }
@@ -855,7 +867,7 @@ footer li{
         padding-right: 80px;
         font-weight: bold;
         color: #0065fc;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #inscription-desktop{
@@ -863,13 +875,13 @@ footer li{
     }
 
     #heberg-link{
-        padding-left: 160px;
+        padding-left: 215px;
         border-bottom: solid 5px #F2F2F2;
     }
 
     #activites-link{
-        padding-left: 147px;
-        padding-right: 247px;
+        padding-left: 204px;
+        padding-right: 230px;
         border-bottom: solid 5px #F2F2F2;
     }
 
@@ -884,16 +896,17 @@ footer li{
         padding-top: 28px;
         width: 600px;
         min-width: 150px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #txt1{
         width: 70%;
-        font-size: 4rem;
+        font-size: 3rem;
+        margin-bottom: 15px;
     }
 
     #txt2{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 5px;
     }
 
@@ -913,6 +926,10 @@ footer li{
     .container-filter button{
         height: 71px;
         border: solid 4px #F2F2F2; 
+    }
+
+    .container-button-research{
+        padding-bottom: 30px;
     }
 
     .container-button-research i{
@@ -952,7 +969,8 @@ footer li{
     }
 
     #filtres p{
-        font-size: 3rem;
+        font-size: 2rem;
+        padding-bottom: 10px;
     }
 
     #filters-logo{
@@ -1030,10 +1048,11 @@ footer li{
     .info{
         margin-bottom: 20px;
         width: 705px;
+        padding-top: 20px;
     }
 
     .info p{
-        font-size: 35px;
+        font-size: 2rem;
     }
 
     .info i{
@@ -1042,7 +1061,7 @@ footer li{
     }
 
     .fa-info:before {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     /* ----------SECTION 2 ACCOMODATIONS----------- */
@@ -1062,13 +1081,13 @@ footer li{
         padding-left: 6%;
         text-align: left;
         margin-top: 30px;
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 20px;
     }
 
     #hebergements1 h4{
         padding-left: 5%;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hotels{
@@ -1080,21 +1099,22 @@ footer li{
     }
 
     .hotels-name{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .prix{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .stars{
         padding-bottom: 20px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #les-plus-populaires{
         border-radius: 0px;
         width: 100%;
+        margin-left: 2%;
     }
 
     #les-plus-populaires-header{
@@ -1103,7 +1123,7 @@ footer li{
 
     #les-plus-populaires-header h3{
         padding-left: 6%;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     #les-plus-populaires-header i{
@@ -1112,7 +1132,7 @@ footer li{
 
     .fa-chart-line:before {
         content: "\f201";
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     #best-ones{
@@ -1126,7 +1146,7 @@ footer li{
 
     .best-stars{
         padding-left: 20px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .best-container{
@@ -1139,13 +1159,13 @@ footer li{
         margin-bottom: 10px;
         padding-left: 20px;
         font-size: 20px;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .best-prix{
         margin-bottom: 70px;
         padding-left: 20px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     /* -----------SECTION 3 ACTIVITIES----------- */
@@ -1154,7 +1174,7 @@ footer li{
         padding-left: 6%;
         margin-bottom: 40px;
         margin-top: 40px;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .activities{
@@ -1172,7 +1192,7 @@ footer li{
     }
 
     #activities-part1 h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1200,13 +1220,13 @@ footer li{
     }
 
     #activities-part2-a h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
 
     #activities-part2-b h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1227,7 +1247,7 @@ footer li{
     }
 
     #activities-part3 h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1268,13 +1288,13 @@ footer li{
     }
 
     #activities-part4-a h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
 
     #activities-part4-b h4{
-        font-size: 40px;
+        font-size: 3rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1287,7 +1307,7 @@ footer li{
     }
 
     footer li{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .footer-container{
@@ -1297,7 +1317,7 @@ footer li{
     }
 
     .footer-container p{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 40px;
     }
 

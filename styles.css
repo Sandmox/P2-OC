@@ -845,6 +845,9 @@ footer li{
         font-size: 2rem;
         margin-right: 0px;
         color: #0065fc;
+        display: flex;
+        flex: 1 1 50%;
+        justify-content: center;
     }
 
     header ul li a{
@@ -873,18 +876,29 @@ footer li{
         font-size: 2rem;
     }
 
+    #li-desktop{
+        display: none;
+    }
+
     #inscription-desktop{
         display: none;
     }
 
     #heberg-link{
-        padding-left: 215px;
+        padding: 20px 0;
+        display: flex;
+        flex: 1 1 100%;
+        height: 100%;
+        justify-content: center;
         border-bottom: solid 5px #F2F2F2;
     }
 
     #activites-link{
-        padding-left: 204px;
-        padding-right: 230px;
+        padding: 20px 0;
+        display: flex;
+        flex: 1 1 100%;
+        height: 100%;
+        justify-content: center;
         border-bottom: solid 5px #F2F2F2;
     }
 

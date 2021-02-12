@@ -201,6 +201,7 @@ header ul li a:active{
     border-radius: 50px;
     padding-left: 13px;
     padding-right: 13px;
+    border-color: #DEEBFF;
 }
 
 
@@ -282,6 +283,7 @@ button:hover{
     height: 40%;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px #cfcac8, -3px 3px 5px #f2f2f2;
 }
 
 #hebergements1 a{
@@ -482,6 +484,7 @@ button:hover{
     flex-direction: row;
     margin-top: 15px;
     overflow: hidden;
+    box-shadow: 3px 3px 5px #cfcac8, -3px 3px 5px #f2f2f2;
 }
 
 #best1-img{

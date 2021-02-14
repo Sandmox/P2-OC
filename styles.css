@@ -1064,12 +1064,12 @@ footer li{
 
     .info{
         margin-bottom: 20px;
-        width: 705px;
         padding-top: 20px;
     }
 
     .info p{
         font-size: 2rem;
+        flex-wrap: wrap;
     }
 
     .info i{

@@ -842,7 +842,7 @@ footer li{
     }
 
     header ul li{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-right: 0px;
         color: #0065fc;
         display: flex;
@@ -873,7 +873,7 @@ footer li{
         padding-right: 80px;
         font-weight: bold;
         color: #0065fc;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #li-desktop{
@@ -918,12 +918,12 @@ footer li{
 
     #txt1{
         width: 70%;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 15px;
     }
 
     #txt2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 5px;
     }
 
@@ -941,7 +941,7 @@ footer li{
     }
 
     .container-filter button{
-        height: 71px;
+        height: 61px;
         border: solid 4px #F2F2F2; 
     }
 
@@ -951,8 +951,8 @@ footer li{
 
     .container-button-research i{
         padding: 30px;
-        padding-bottom: 30px;
-        padding-top: 33px;
+        padding-bottom: 5px;
+        padding-top: 26px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -1009,19 +1009,19 @@ footer li{
     }
 
     .fa-money-bill-wave:before {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .fa-child:before {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .fa-heart:before {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .fa-dog:before {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #dog-button{
@@ -1068,7 +1068,7 @@ footer li{
     }
 
     .info p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         flex-wrap: wrap;
     }
 
@@ -1098,34 +1098,34 @@ footer li{
         padding-left: 6%;
         text-align: left;
         margin-top: 30px;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
     #hebergements1 h4{
         padding-left: 5%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hotels{
         width: 90%;
-        height: 450px;
+        height: 350px;
         box-shadow: 3px 3px 5px #F2F2F2, -3px 3px 5px #F2F2F2;
         margin-bottom: 50px;
         justify-content: flex-start;
     }
 
     .hotels-name{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .prix{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .stars{
         padding-bottom: 20px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #les-plus-populaires{
@@ -1140,7 +1140,7 @@ footer li{
 
     #les-plus-populaires-header h3{
         padding-left: 6%;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #les-plus-populaires-header i{
@@ -1149,7 +1149,7 @@ footer li{
 
     .fa-chart-line:before {
         content: "\f201";
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #best-ones{
@@ -1163,7 +1163,7 @@ footer li{
 
     .best-stars{
         padding-left: 20px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .best-container{
@@ -1176,13 +1176,13 @@ footer li{
         margin-bottom: 10px;
         padding-left: 20px;
         font-size: 20px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .best-prix{
         margin-bottom: 70px;
         padding-left: 20px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     /* -----------SECTION 3 ACTIVITIES----------- */
@@ -1191,31 +1191,31 @@ footer li{
         padding-left: 6%;
         margin-bottom: 40px;
         margin-top: 40px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .activities{
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        height: 250rem;
+        justify-content: space-around;
+        height: 230rem;
     }
 
 
     #activities-part1{
-        margin-bottom: 50px;
         height: 15%;
         width: 90%;
     }
 
     #activities-part1 h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
 
     #background1{
         height: 75%;
+        background-position-y: 34%;
     }
 
     #activities-part2{
@@ -1225,25 +1225,23 @@ footer li{
     }
 
     #activities-part2-a{
-        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
 
     #activities-part2-b{
-        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
 
     #activities-part2-a h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
 
     #activities-part2-b h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1257,14 +1255,13 @@ footer li{
     }
 
     #activities-part3{
-        margin-bottom: 50px;
         height: 15%;
         width: 90%;
         margin-left: 3%;
     }
 
     #activities-part3 h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1283,20 +1280,19 @@ footer li{
 
     #activities-part4-a{
         margin-right: 0px;
-        margin-bottom: 50px;
         height: 50%;
         width: 100%;
     }
 
     #activities-part4-b{
         margin-right: 0px;
-        margin-bottom: 15px;
         height: 50%;
         width: 100%;
     }
 
     #background4-a{
         height: 75%;
+        background-position-y: 20%;
     }
 
     #background4-b{
@@ -1305,13 +1301,13 @@ footer li{
     }
 
     #activities-part4-a h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
 
     #activities-part4-b h4{
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -1324,7 +1320,7 @@ footer li{
     }
 
     footer li{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .footer-container{
@@ -1334,7 +1330,7 @@ footer li{
     }
 
     .footer-container p{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 40px;
     }
 

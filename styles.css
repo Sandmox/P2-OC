@@ -905,7 +905,7 @@ footer li{
     /* ---------- SECTION 1 RESEARCH ----------- */
 
     .research{
-        padding-left: 4%;
+        padding: 0 4%;
     }
 
     .research input{
@@ -937,7 +937,7 @@ footer li{
         flex-wrap: wrap;
         align-items: flex-start;
         margin-top: 0px;
-        width: 60%;
+        width: 57%;
     }
 
     .container-filter button{
@@ -1025,20 +1025,23 @@ footer li{
     }
 
     #dog-button{
-        width: 325px;
+        width: 295px;
+        text-align: left;
     }
 
     #romantique-button{
         width: 225px;
+        text-align: left;
     }
 
     #eco-button{
         width: 225px;
+        text-align: left;
     }
 
     #famille-button{
-        width: 225px;
-        margin-left: 30px;
+        width: 190px;
+        text-align: left;
     }
 
     #logo-eco{
@@ -1092,6 +1095,8 @@ footer li{
         border-radius: 0px;
         background-color: white;
         width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     #hebergements1 h3{
@@ -1131,7 +1136,8 @@ footer li{
     #les-plus-populaires{
         border-radius: 0px;
         width: 100%;
-        margin-left: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     #les-plus-populaires-header{
@@ -1205,6 +1211,7 @@ footer li{
     #activities-part1{
         height: 15%;
         width: 90%;
+        margin-left: 0%;
     }
 
     #activities-part1 h4{
@@ -1221,12 +1228,12 @@ footer li{
     #activities-part2{
         height: 30%;
         width: 90%;
-        margin-left: 3%;
     }
 
     #activities-part2-a{
         height: 50%;
         width: 100%;
+        margin-bottom: 60px;
     }
 
     #activities-part2-b{
@@ -1257,7 +1264,6 @@ footer li{
     #activities-part3{
         height: 15%;
         width: 90%;
-        margin-left: 3%;
     }
 
     #activities-part3 h4{
@@ -1275,13 +1281,13 @@ footer li{
         margin-right: 0px;
         height: 30%;
         width: 90%;
-        margin-left: 3%;
     }
 
     #activities-part4-a{
         margin-right: 0px;
         height: 50%;
         width: 100%;
+        margin-bottom: 60px;
     }
 
     #activities-part4-b{
@@ -1317,6 +1323,8 @@ footer li{
     #footer{
         display: flex;
         flex-direction: column;
+        box-sizing: border-box;
+        padding: 0 34px;
     }
 
     footer li{
@@ -1324,7 +1332,6 @@ footer li{
     }
 
     .footer-container{
-        padding-left: 35px;
         width: 100%;
         background-color: #F2F2F2;
     }

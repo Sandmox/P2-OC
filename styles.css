@@ -85,6 +85,7 @@ header ul li a:active{
     font-size: 13px;
     padding-left: 50px;
     margin-top: 0;
+    font-weight: normal;
 }
 
 .container-button-research{

@@ -42,6 +42,7 @@ header ul li{
 header ul li a{
     padding: 28px;
     width: 80px;
+    color: #0065fc;
 }
 
 header ul li a:hover{
@@ -58,10 +59,6 @@ header ul li a:active{
 
 #activites-link{
     color: #0065fc;
-}
-
-#inscription-mobile{
-    display: none;
 }
 
 /* -------SECTION 1 RESEARCH-------- */
@@ -853,9 +850,8 @@ footer li{
         justify-content: center;
     }
 
-    header ul li a{
-        padding-left: 120px;
-        padding-right: 120px;
+    header ul li a:hover{
+        border-top: none;
     }
 
     #activites-link:hover{
@@ -870,19 +866,11 @@ footer li{
         color: #0065fc;
     }
 
-    #inscription-mobile{
-        display: flex;
-        font-weight: bold;
-        color: #0065fc;
-        font-size: 1.5rem;
-    }
-
     #li-desktop{
-        display: none;
-    }
-
-    #inscription-desktop{
-        display: none;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        font-weight: bold;
     }
 
     #heberg-link{

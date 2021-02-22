@@ -40,12 +40,12 @@ header ul li{
 }
 
 header ul li a{
-    padding: 30px;
+    padding: 28px;
     width: 80px;
 }
 
 header ul li a:hover{
-    border-top: solid 2px #0065fc;
+    border-top: solid 3px #0065fc;
 }
 
 header ul li a:active{
@@ -181,6 +181,7 @@ header ul li a:active{
     padding-left: 30px;
     padding-right: 20px;
     min-width: 125px;
+    height: 40px;
 }
 
 .filters-button{
@@ -326,6 +327,7 @@ button:hover{
 .stars{
     display: flex;
     flex-direction: row;
+    padding-bottom: 5px;
 }
 
 #stars1-blue i{
@@ -825,16 +827,16 @@ footer li{
         padding-bottom: 20px;
     }
 
-    header p img{
-        width: 200px;
-    }
-
     .header1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-left: 4%;
+        padding: 5px 30px;
+    }
+
+    header p img{
+        padding-left: 0px;
     }
 
     header ul{
@@ -870,8 +872,6 @@ footer li{
 
     #inscription-mobile{
         display: flex;
-        padding-left: 120px;
-        padding-right: 80px;
         font-weight: bold;
         color: #0065fc;
         font-size: 1.5rem;
